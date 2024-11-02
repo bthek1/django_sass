@@ -1,0 +1,16 @@
+// Path: static/scss/main.scss
+
+// Step 1: Override Bootstrap variables (colors, fonts, etc.)
+$primary: #673a30;        // Custom primary color
+$secondary: #6c757d;      // Custom secondary color
+$success: #28a745;        // Custom success color
+$info: #17a2b8;           // Custom info color
+$warning: #ffc107;        // Custom warning color
+$danger: #dc3545;         // Custom danger color
+
+// Override other variables if desired
+$body-bg: #f8f9fa;        // Custom background color
+$font-family-base: "Arial, sans-serif"; // Custom base font
+
+// Step 2: Import Bootstrap's SCSS
+@import "bootstrap/scss/bootstrap";

@@ -10,6 +10,9 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^5.1"
+django-sass-processor = "^1.4.1"
+django-compressor = "^4.5.1"
+libsass = "^0.23.0"
 
 
 [build-system]
